@@ -1,0 +1,48 @@
+.logo-container {
+    z-index: 0;
+    width: 1000px;
+    height: 1609px;
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 40%;
+    margin: auto;
+    
+    svg {
+    height: 1400px;
+    width: 1400px;
+    }
+    
+    svg path {
+    stroke-dasharray: 200 100;
+    animation: dash 5s forwards;
+    }
+    
+    svg g {
+    animation: fill-in 1s 5s forwards;
+    fill-opacity: 0;
+    }
+    
+    @keyframes dash {
+    to {
+        stroke-dashoffset: 400;
+    }
+    }
+    
+    @keyframes fill-in {
+    to {
+        fill-opacity: 1;
+    }
+    }
+    
+    svg circle {
+    display: none;
+    }      
+  
+  
+  .svg-container {
+    stroke: #ffd700;
+    stroke-width: 1;
+  }
+}
+  

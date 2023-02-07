@@ -1,22 +1,16 @@
 import './index.scss'
 import LogoB from '../../assets/images/logo_B.png'
-import Waseda from '../../assets/images/waseda_sports_logo_press_color.jpg'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
   faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 

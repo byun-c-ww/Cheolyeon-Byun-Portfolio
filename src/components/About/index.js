@@ -36,11 +36,6 @@ const About = () => {
                 </p>
                 <p>
                     Check out my github page on the bottom left corner for more projects I've done!
-                    Also, here are some projects that have been deployed!
-                    <a href='https://byunexpensetracker.netlify.app'>https://byunexpensetracker.netlify.app</a>
-                    <a href='https://byunreacteats.netlify.app'>https://byunreacteats.netlify.app</a>
-                    
-                    
                 </p>
             </div>
 

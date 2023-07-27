@@ -9,6 +9,13 @@
     overflow: hidden;
 }
 
+.chartJS {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 49%;
+}
+
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;

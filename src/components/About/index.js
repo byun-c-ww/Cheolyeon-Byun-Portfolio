@@ -1,6 +1,7 @@
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { useState, useEffect } from 'react'
+import logo from '../../assets/images/Showcase.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faR } from '@fortawesome/free-solid-svg-icons';
@@ -25,21 +26,23 @@ const About = () => {
                     idx={15}/>
                 </h1>
                 <p>
-                    Waseda University Student from the School of International Liberal Studies, expected to graduate in fall of 2024.
+                    Waseda University Student from the School of International Liberal Studies with a major in Computer Science with a focus on Natural Language Processing and Sentiment Analysis.
                 </p>
                 <p>
                     Also a huge 少年漫画 fan!
                 </p>
                 <p>
-                    Mainly Studied Data science using python and Rstudio, and also studied Javascript and React on my own time to create websites such as this one!
-                    Aiming to become a full stack web developer.
+                    Currently working as a software engineer intern at つばさ株式会社, developing RESTful APIs using AWS Lambda, PostgreSQL,
+                    and Python. I also developed front end UI elements like
+                    dynamic Charts that you can see on the right!
                 </p>
                 <p>
                     Check out my github page on the bottom left corner for more projects I've done!
                 </p>
             </div>
-
-            <div className='stage-cube-cont'>
+            <img className="chartJS" src={logo} alt="loading..." />
+            {/* <img src={require('../assets/images/Showcase.gif')} alt="loading..." /> */}
+            {/* <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
                         <FontAwesomeIcon icon={faPython} color='#DD0031' />
@@ -60,7 +63,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faR} color='#EC4D28' />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
         <span class="loader"></span>
         </>

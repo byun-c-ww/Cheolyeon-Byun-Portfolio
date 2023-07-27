@@ -7,7 +7,7 @@ import Logo from './Logo'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [' ', ' ', 'B', 'y', 'u', 'n']
-  const jobArray = ['W', 'E', 'B', ' ', 'D', 'E', 'V']
+  const jobArray = ['S', 'O', 'F', 'T', 'W', 'A', 'R', 'E', ' ', 'E', 'N', 'G', 'I', 'N', 'E', 'E', 'R']
   const nameArray2 = ['C', 'h', 'e', 'o', 'l', 'y', 'e', 'o', 'n']
 
   useEffect(() => {
@@ -39,25 +39,28 @@ const Home = () => {
           ></AnimatedLetters>
         </h3>
         <h4>
-        Aspiring Fullstack Javascript Developer
+        Software Engineer Intern in Japan, and an Aspiring Fullstack Developer / ML Engineer
         </h4>
         <h2>
           <br></br>
           <br></br>
-          Other projects
+          Other projects, like my personal blog made with Next.js,
+          data visualization with react-chartjs-2,
+          data science projects like my sentiment analysis NLP projects
+          are all available in my github page!
           <br></br>
           <a 
           target="_blank"
           rel="noreferrer"
-          href="https://byunexpensetracker.netlify.app">
-            https://byunexpensetracker.netlify.app
+          href="https://github.com/byun-c-ww/Metaverse-Sentiment-Analysis/blob/main/Social_Media_Anlysis%20PDF.pdf">
+            Sentiment Analysis Project (PDF file)
           </a>
           <br></br>
           <a 
           target="_blank"
           rel="noreferrer"
-          href="https://byunreacteats.netlify.app">
-            https://byunreacteats.netlify.app
+          href="https://byunblog.vercel.app/">
+            Personal Blog
           </a>
         </h2>
         <Link to="/contact" className="flat-button">
